@@ -25,3 +25,15 @@ li{
 a{
     color: #FFA8F8;
 }
+nav {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.heading {
+    color:black
+}
+
+#menu{
+    color: black;
+}
