@@ -2,38 +2,28 @@ body{
     background-color: black;
 }
 
-h1{
+h2, h3 {
    color: #4dc9ff;
-   font-family: 'Montserrat', sans-serif;
 }
 
-h2{
+.title {
     color: #4dc9ff;
-}
-
-h3{
-    color: #4dc9ff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p{
     color:#FFA8F8 ;
 }
 
-li{
-    color: #FFA8F8;
-}
-
 a{
     color: #FFA8F8;
 }
-nav {
+
+nav, .heading {
   background-color: lightgray;
   text-align: center;
 }
 
-.heading {
-    color:lightgray
-}
 
 .menu{
     color: black;
