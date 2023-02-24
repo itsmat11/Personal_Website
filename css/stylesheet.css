@@ -42,11 +42,6 @@ footer {
     grid-gap: 20px;
 }
 
-.image {
-    grid-column: 2;
-    justify-content: center;
-}
-
 .text {
     grid-column: 1;
 }
