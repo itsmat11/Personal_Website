@@ -19,7 +19,7 @@ a,
     color: #ffa8f8;
 }
 
-.container {
+.container, footer {
     display: flex;
     background-color: darkslateblue;
     flex-direction: column;
@@ -31,10 +31,10 @@ a,
     display: inline-flex;
 }
 
-footer {
+/* footer {
     background-color: darkslateblue;
     text-align: center;
-}
+} */
 
 .grid {
     display: grid;
