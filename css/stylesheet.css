@@ -29,9 +29,22 @@ li, p, a, .menu{
 }
 
 
-
-
 footer {
     background-color: darkslateblue;
     text-align: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .text {
+    grid-column: 1;
+  }
+  
+  .image {
+    grid-column: 2;
+    
   }
