@@ -56,7 +56,7 @@ footer {
   
   .image {
     grid-column: 2;
-    display: flex; /* Add this to enable flexbox */
+    display: flex; 
     align-items: center;
     justify-content: center;
   }
