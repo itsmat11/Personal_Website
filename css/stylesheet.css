@@ -39,12 +39,25 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
+
+  .image {
+    grid-column: 2;
+    justify-content: center;
+  }
+
   
   .text {
     grid-column: 1;
   }
+
+  .text p:first-of-type {
+    margin-bottom: 200px;
+  }
   
   .image {
     grid-column: 2;
-    
+    display: flex; /* Add this to enable flexbox */
+    align-items: center;
+    justify-content: center;
   }
+
