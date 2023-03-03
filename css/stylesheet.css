@@ -17,6 +17,7 @@ p,
 a,
 .menu {
     color: #ffa8f8;
+    list-style-type: none;
 }
 
 .container {
@@ -27,7 +28,6 @@ a,
 }
 
 .heading {
-    list-style: none;
     display: inline-flex;
 }
 
