@@ -57,9 +57,6 @@ footer {
     justify-content: center;
 }
 
-.course1, .course2, .course3, .course1-description, .course2-description, .course3-description {
-    margin-top: 20px;
-}
 
 @media screen and (max-width:600px) {
     .heading {
@@ -75,6 +72,9 @@ footer {
     }
     .course1-description, .course2-description{
         border-bottom: solid 1px white ;
+    }
+    .course1{
+        margin-top: 10px;
     }
 }
 
@@ -95,7 +95,9 @@ footer {
     .course-date{
         margin-top: 100px;
     }
-    
+    .course1, .course2, .course3, .course1-description, .course2-description, .course3-description, .course1-description, .course2-description{
+        margin-top: 10px;
+    }
 }
   
 
