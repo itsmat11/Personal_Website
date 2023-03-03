@@ -90,6 +90,10 @@ footer {
         text-align: left;
         border-bottom: solid 1px white ;
     }
+
+    .course-date{
+        margin-top: 100px;
+    }
     
 }
   
