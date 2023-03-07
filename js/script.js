@@ -4,26 +4,26 @@ const courseList = [
     { code: "ACIT 1420", name: "Introduction to System Administration" },
   ];
   
-  let courseCode = prompt("Please enter a 4-digit course code:");
-  while (isNaN(courseCode) || courseCode.toString().length !== 4) {
+  let course_code = prompt("Please enter a 4-digit course code:");
+  while (isNaN(course_code) || course_code.toString().length !== 4) {
     courseCode = prompt("Please enter a valid 4-digit course code:");
   }
-  let courseFound = false;
+  let course_new = false;
   for (let i = 0; i < courseList.length; i++) {
-    if (courseList[i].code.includes(courseCode)) {
-      console.log("Yes, I am taking course: " +  courseList[i].code + " - " + courseList[i].name);
-      courseFound = true;
+    if (courseList[i].code.includes(course_code)) {
+      console.log(`Yes, I am taking course: ${courseList[i].code} - ${courseList[i].name}`);
+      course_new = true;
       break;
     }
   }
   
-  if (!courseFound) {
-    const newCourse = {
-      code: "ACIT " + courseCode,
+  if (!course_new) {
+    const add_course = {
+      code: "ACIT " + course_code,
       name: null,
     };
-    courseList.push(newCourse);
-    console.log(`Added new course with code: ACIT ${courseCode}`);
+    courseList.push(add_course);
+    console.log(`Add new course code: ACIT ${course_code}`);
   }
   
   console.log(courseList);
