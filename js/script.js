@@ -27,3 +27,4 @@ const courseList = [
   }
   
   console.log(courseList);
+
